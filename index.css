@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    background-color: #FFF159;
+    height: 80px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#buscador{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%
+};
+
+.buscador{
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#buscador>input, #buscador>button{
+    padding: 10px;
+}
+
+#buscador>input{
+    width: 70%;
+}
+
+#buscador>button{
+    width: 25%;
+}
+
+.body-container{
+    display: flex;
+    justify-content: center;
+}
+
+#results{
+    width: 60%;
+}
+
+
+.result-item{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    margin-bottom: 20px;
+}
+
+.precio{
+    text-align: right;
+    padding: 10px;
+}
+
+.imgEl{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.img{
+    max-width: 150px;
+    max-height: 150px;
+}

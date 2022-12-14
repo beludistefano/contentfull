@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script async src="./index.js"></script>
+    <title>APIS MeLi</title>
+</head>
+<body>
+    <header>
+        <form id="buscador">
+            <input type="text" id="buscador-prod" class="buscador" name="palabra">
+            <button type="submit" class="buscador">Buscar!</button>
+        </form>
+    </header>
+    <div class="body-container">
+        <div id="results">
+            <p>Resultados:<span></span></p>
+            <section id="resultados">
+                <template id="template">
+                <div class="result-item">
+                    <div class="imgEl">
+                        <img class="img" alt="Foto">
+                    </div>
+                    <div class="info">
+                        <h3 class="title-prod"></h3>
+                        <p class="descrip-prod"></p>
+                    </div>
+                    <div class="precio">
+                        <h3 class="precio-prod"></h3>
+                    </div>
+                </div>
+                </template>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
